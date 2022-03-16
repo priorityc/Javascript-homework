@@ -1,5 +1,5 @@
 //project 11
-let myname = 'Petya';
+/*let myname = 'Petya';
 let myage = 38;
 console.log('hello my name is'+ myname + 'and I am'+myage + 'years old');
 let my= 'John';
@@ -43,11 +43,21 @@ if (value='');
   e.preventDefault();
  }
 
-  
+//if statement alert or print result in the DOM
   let input=prompt('what is your favorite colour?');
   let result3=input;
-if (input='') {
-  document.querySelector('#print').innerHTML;
-  document.querySelector('#print').addEventListener= ('click',result3);
+  validateinput = (e) => {
+  if (input) {
+    print(result3);
+    
+  document.getElementById('print').innerHTML=result3;
+  }
 }
-   
+ document.addEventListener('click',validateinput);*/
+
+ //task4 extra task take arrey from task one on the top
+ let Arrey = ['breackfast','lunch','diner'];
+ //loop
+ i= (`array position = ${Arrey}`);
+ for(let i=0; i< Arrey.length; i++ );
+console.log((`array position = ${0}contains${Array[1]}`));
